@@ -19,7 +19,7 @@ Each CoNLL token will contain these additional two fields:
 
 1. Restrictiveness, which has the following possible values:
        * **RSTR** -- marking that this is a restrictive modifier.
-       * **NON-RESTR** -- marking that this is non-restrictive modifier.
+       * **NON-RESTR** -- marking that this is a non-restrictive modifier.
        * **_** -- which marks that this token is not annotated.
 
 2. Modifier Type, marking the type of this modifier. Has the following possible values (see paper for example and evaluation):
