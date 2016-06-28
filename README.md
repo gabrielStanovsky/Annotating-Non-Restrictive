@@ -17,7 +17,7 @@ The corpus will be generated in the corpus directory.
 Each CoNLL token will contain these additional two fields:   
 
 1. Restrictiveness, which has the following possible values:
-       * 'RSTR', marking that this is a restrictive modifier.
+       * **RSTR**, marking that this is a restrictive modifier.
        * 'NON-RESTR', marking that this is non-restrictive modifier.
        * '-', which marks that this token is not annotated.
 
