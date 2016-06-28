@@ -40,7 +40,7 @@ Other files in this repo
 
 - **classifiers** -- Contains the code for the classifiers described in the paper.
 
-- **diffs** -- The diff files which, in conjunction with the CoNLL data, generates our annotated corpus.
+- **diffs** -- The diff files which, in conjunction with the CoNLL data, generate our annotated corpus.
 
 - **features** -- The CRF features for each of the training instances, used to train both CRF models.
 
