@@ -18,9 +18,9 @@ The corpus will be generated in the corpus directory.
 Each CoNLL token will contain these additional two fields:   
 
 1. Restrictiveness, which has the following possible values:
-       * **RSTR**, marking that this is a restrictive modifier.
-       * **NON-RESTR**, marking that this is non-restrictive modifier.
-       * **-**, which marks that this token is not annotated.
+       * **RSTR** -- marking that this is a restrictive modifier.
+       * **NON-RESTR** -- marking that this is non-restrictive modifier.
+       * **_** -- which marks that this token is not annotated.
 
 2. Modifier Type, marking the type of this modifier. Has the following possible values (see paper for example and evaluation):
       * **_** -- this token is not a modifier.
@@ -38,11 +38,11 @@ Each CoNLL token will contain these additional two fields:
 Other files in this repo
 ------------------------
 
-- classifiers: Contains the code for the classifiers described in the paper.
+- **classifiers** -- Contains the code for the classifiers described in the paper.
 
-- diffs: The diff files which, in conjunction with the CoNLL data, generates our annotated corpus.
+- **diffs** -- The diff files which, in conjunction with the CoNLL data, generates our annotated corpus.
 
-- features: The CRF features for each of the training instances, used to train both CRF models.
+- **features** -- The CRF features for each of the training instances, used to train both CRF models.
 
-- models: pre-trained models, acheiving the results described in the paper.
+- **models** -- Pre-trained models, acheiving the results described in the paper.
 
