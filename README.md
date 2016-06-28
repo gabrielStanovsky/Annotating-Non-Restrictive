@@ -22,14 +22,14 @@ Each CoNLL token will contain these additional two fields:
        * '-', which marks that this token is not annotated.
 
 2. Modifier Type, marking the type of this modifier. Has the following possible values (see paper for example and evaluation):
-        * _ -- this token is not a modifier.
-        * APPOS-MOD -- Appositional modifier.
-        * INF-MOD -- Infinitival modifier.
-        * POSTADJ-MOD -- Postfix adjectival modifier.
-        * PP-MOD -- Prepositional modifier.
-        * PREADJ-MOD -- Prefix adjectival modifier.
-        * PREVERB-MOD -- Prefix verbal modifier.
-        * RC-MOD -- Relative Clause modifier.
+      * _ -- this token is not a modifier.
+      * APPOS-MOD -- Appositional modifier.
+      * INF-MOD -- Infinitival modifier.
+      * POSTADJ-MOD -- Postfix adjectival modifier.
+      * PP-MOD -- Prepositional modifier.
+      * PREADJ-MOD -- Prefix adjectival modifier.
+      * PREVERB-MOD -- Prefix verbal modifier.
+      * RC-MOD -- Relative Clause modifier.
 
 
 
