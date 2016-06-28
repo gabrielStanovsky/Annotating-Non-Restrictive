@@ -6,9 +6,32 @@ Generating the corpus
 ---------------------
 
 To get the annotated corpus, you'll first need to obtain the CoNLL 2009 train corpus (CoNLL2009-ST-English-train.txt).
-Then, from the project's main directory, run:
+
+Once you get it, run:
 '''generateCorpora CoNLL2009-ST-English-train.txt'''
 This will generate the corpus (train, dev and test splits) in the "corpus" directory.
+
+Corpus format
+-------------
+The corpus will be generated in the corpus directory.
+Each CoNLL token will contain these additional two fields:   
+
+* Restrictiveness, which has the following possible values:
+        * 'RSTR', marking that this is a restrictive modifier.
+        * 'NON-RESTR', marking that this is non-restrictive modifier.
+        * '-', which marks that this token is not annotated.
+
+* Modifier Type, marking the type of this modifier. Has the following possible values (see paper for example and evaluation):
+        * _ -- this token is not a modifier.
+        * APPOS-MOD -- Appositional modifier.
+        * INF-MOD -- Infinitival modifier.
+        * POSTADJ-MOD -- Postfix adjectival modifier.
+        * PP-MOD -- Prepositional modifier.
+        * PREADJ-MOD -- Prefix adjectival modifier.
+        * PREVERB-MOD -- Prefix verbal modifier.
+        * RC-MOD -- Relative Clause modifier.
+
+
 
 Other files in this repo
 ------------------------
