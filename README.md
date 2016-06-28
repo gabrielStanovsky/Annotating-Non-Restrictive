@@ -8,7 +8,8 @@ Generating the corpus
 To get the annotated corpus, you'll first need to obtain the CoNLL 2009 train corpus (CoNLL2009-ST-English-train.txt).
 
 Once you get it, run:
-```generateCorpora.sh CoNLL2009-ST-English-train.txt```
+```generateCorpora.sh CoNLL2009-ST-English-train.txt```.
+
 This will generate the corpus (train, dev and test splits) in the "corpus" directory.
 
 Corpus format
