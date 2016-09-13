@@ -5,8 +5,7 @@ Published in "[Annotating and Predicting Non-Restrictive Noun Phrase Modificatio
 Generating the corpus
 ---------------------
 
-To get the annotated corpus, you'll first need to obtain the CoNLL 2009 train corpus (CoNLL2009-ST-English-train.txt).
-
+To get the annotated corpus, you'll first need to obtain the CoNLL 2009 train corpus from [LDC](https://catalog.ldc.upenn.edu/LDC2012T04) (specifically, we'll use CoNLL2009-ST-English-train.txt).
 Once you get it, run:
 ```generateCorpora.sh CoNLL2009-ST-English-train.txt```.
 
