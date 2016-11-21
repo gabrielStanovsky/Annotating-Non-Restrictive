@@ -16,7 +16,7 @@
 	{
 		margin: 0;
 		padding: 0;
-		background: #FEFEFE;
+		background: #161616;
 	}
 
 	body,input,textarea,select
@@ -25,13 +25,13 @@
 		font-size: 11pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #010101;
+		color: #777;
 	}
 
 	h1,h2,h3,h4,h5,h6
 	{
 		font-weight: 300;
-		color: #010101;
+		color: #777;
 	}
 	
 		h2
@@ -60,7 +60,6 @@
 	{
 		text-decoration: none;
 		color: #80BA8E;
-		/* font-weight: bold; */
 	}
 	
 	a:hover
@@ -116,7 +115,6 @@
 			display: block;
 			margin: 1.5em 0 0 0;
 			padding: 0 0 0.5em 0;
-			color: #777;			
 		}
 		
 	footer
@@ -868,14 +866,14 @@
 				letter-spacing: 0.06em;
 				text-decoration: none;
 				text-transform: uppercase;
-				font-size: 0.7em;
+				font-size: 1.1em;
 				outline: 0;
-				color: #777;
+				color: #FFF;
 			}
 
 			#nav li.active a
 			{
-				color: #777;
+				color: #FFF;
 			}
 
 			#nav > ul > li > ul

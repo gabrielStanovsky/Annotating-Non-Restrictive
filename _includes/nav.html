@@ -1,23 +1,13 @@
-<!-- Fixed navbar -->
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="{{ "/"  | prepend: site.baseurl }}">{{ site.title }}</a>
-    </div>
-    <div class="navbar-collapse collapse navbar-right">
-      <ul class="nav navbar-nav">
-        <li {% if page.title == "Home" %}class="active"{% endif %}><a href="{{"/" | prepend: site.baseurl }}">HOME</a></li>
-        <li {% if page.title == "Blog" %}class="active"{% endif %}><a href="{{"/blog/" | prepend: site.baseurl }}">BLOG</a></li>
-        <li {% if page.title == "Portfolio" %}class="active"{% endif %}><a href="{{"/portfolio/" | prepend: site.baseurl }}">PORTFOLIO</a></li>
-        <li {% if page.title == "About" %}class="active"{% endif %}><a href="{{"/about/" | prepend: site.baseurl }}">ABOUT</a></li>
-        <li {% if page.title == "Contact" %}class="active"{% endif %}><a href="{{"/contact/" | prepend: site.baseurl }}">CONTACT</a></li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div>
+<div id="nav-wrapper">
+	<!-- Nav -->
+	<nav id="nav">
+		<ul>
+			{% assign current = page.url | downcase | split: '/' %}
+			<li {% if current[1] == 'index.html' %}class='current'{% endif %}><a href="/index.html">Homepage</a></li>
+			<li {% if current[1] == 'blog' %}class='current'{% endif %}><a href="/blog">Publications</a></li>
+			<li {% if current[1] == 'cv.html' %}class='current'{% endif %}><a href="/cv.html">CV</a></li>
+			<!-- <li {% if current[1] == 'right-sidebar.html' %}class='current'{% endif %}><a href="/right-sidebar.html">Contact</a></li> -->
+			<!-- <li {% if current[1] == 'no-sidebar.html' %}class='current'{% endif %}><a href="/no-sidebar.html">No Sidebar</a></li> -->
+		</ul>
+	</nav>
 </div>
