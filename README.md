@@ -1,6 +1,6 @@
 # Annotating-Non-Restrictive
 Code, models, and corpus of non-restrictive noun phrase modifications.  
-Published in "[Annotating and Predicting Non-Restrictive Noun Phrase Modifications](https://www.cs.bgu.ac.il/~gabriels/acl_16_long.pdf)" (Stanovsky and Dagan, ACL 2016)
+Published in "[Annotating and Predicting Non-Restrictive Noun Phrase Modifications](https://gabrielstanovsky.github.io/assets/papers/acl16a/paper.pdf)" (Stanovsky and Dagan, ACL 2016)
 
 Generating the corpus
 ---------------------
